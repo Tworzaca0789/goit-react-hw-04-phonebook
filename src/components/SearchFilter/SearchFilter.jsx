@@ -2,12 +2,13 @@ import React from "react";
 import styles from './SearchFilter.module.css';
 import PropTypes from 'prop-types';
  
-const SearchFilter = ({ value, onChange }) => (
+const SearchFilter = ({ onChange, filter }) => (
     <>
         <p className={styles.inputLabel}>Find contacts by name</p>
         <input className= {styles.inputContent}
         type="text"
-        value={value}
+        name= "filter"
+        value={filter}
         onChange={onChange}
         />
     </>
