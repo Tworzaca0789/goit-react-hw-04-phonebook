@@ -1,0 +1,24 @@
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.contactItem {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    gap:10px
+}
+
+.contactDeleteBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:dodgerblue;
+    color:azure;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}

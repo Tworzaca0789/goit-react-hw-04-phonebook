@@ -1,0 +1,10 @@
+.appBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.phonebookTitle {
+display: block;
+color:forestgreen;
+}
